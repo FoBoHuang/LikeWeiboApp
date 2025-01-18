@@ -17,7 +17,7 @@ struct PostCell: View {
                 .clipShape(Circle())
                 .overlay {
                         PostVIPBadge()
-                        .offset(x: 16, y: 16)
+                        .offset(x: 17, y: 17)
                 }
             
             VStack(alignment: .leading, spacing: 5) {
